@@ -1,6 +1,8 @@
-@include('_partials.header')
+@include('_partials.header', ['titleTag' => 'DevUni'])
 
+<div class="container">
+    @yield('body')
+</div>
 
-@yield('body')
 
 @include('_partials.footer')
