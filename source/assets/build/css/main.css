@@ -1,0 +1,47 @@
+body {
+  background: #323232;
+  color: #00c8c8;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #00c8c8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+div.container-center {
+  display: block;
+  margin: 180px;
+  text-align: center;
+  border-width: 0 thin;
+  border-color: #00c8c8;
+}
+
+.navbar.nav {
+  margin: 0;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list-item {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav-list-item:hover {
+  color: aqua;
+  background-color: #464646;
+}
+
+.footer {
+  text-align: center;
+}
